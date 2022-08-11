@@ -4,5 +4,7 @@ name = input("What's your name? ")
 name = name.strip()
 #Coloca em maiusculo o nome
 name = name.title()
+#Divide o nome do usuário
+first, last = name.split(" ")
 #Imprimi Hello para o ususário
-print(f"Hello, {name}")
+print(f"Hello, {first}")
